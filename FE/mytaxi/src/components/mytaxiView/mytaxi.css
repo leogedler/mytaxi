@@ -1,0 +1,16 @@
+.rowState{
+    color: black !important;
+}
+.redText{
+    color: red;
+    font-weight: bold;
+}
+.greenText{
+    color: green;
+    font-weight: bold;
+}
+
+.mytaxi_thumb_img{
+    margin-top: 20px;
+    width: 100px !important;
+}
