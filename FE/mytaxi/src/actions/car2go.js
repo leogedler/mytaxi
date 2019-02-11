@@ -2,7 +2,7 @@ import axios from 'axios';
 
 import { FECH_CAR2GO_VEHICULES, FILTER_CAR2GO_VEHICULES } from './types';
 
-const URL = 'http://localhost:5000';
+const URL = process.env.REACT_APP_SERVICE_URL;
 
 export const fetchCar2goVehicules = callback => async dispatch => {
   try {

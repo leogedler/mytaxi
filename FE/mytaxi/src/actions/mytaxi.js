@@ -2,7 +2,7 @@ import axios from 'axios';
 
 import { FECH_MY_TAXY_VEHICULES, FILTER_MY_TAXY_VEHICULES, } from './types';
 
-const URL = 'http://localhost:5000';
+const URL = process.env.REACT_APP_SERVICE_URL;
 
 export const fetchMyTaxiVehicules = callback => async dispatch => {
   try {
