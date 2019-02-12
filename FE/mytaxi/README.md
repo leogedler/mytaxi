@@ -1,6 +1,6 @@
 # Mytaxi React Test
 
-Test project created using `create-react-app` with `redux`, `react-router-dom`, and `google maps`.
+Test project created using `create-react-app` with `redux`, `react-router-dom`, `google maps`, and `enzyme`.
 
 
 ## How to use it
@@ -18,5 +18,12 @@ npm run start
 ```
 
 Navigate to [http://localhost:3000/](http://localhost:3000/)
+
+## How to test
+
+Using jest and enzyme run
+```bash
+npm run test
+```
 
 
